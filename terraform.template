@@ -37,5 +37,5 @@ resource "alicloud_instance" "instance" {
   instance_name        = "v2ray"
   vswitch_id = alicloud_vswitch.vsw.id
   internet_max_bandwidth_out =10
-  password = "p@ssw0rd123456"
+  password = "$SERVER_PASSWORD"
 }
