@@ -9,3 +9,6 @@
 2）ansible
 为完成上述项目用途，请本地自动安装terraform+ansible客户端
 
+如何启动：
+完成上述依赖工具安装后，执行aliyun_ECS.sh脚本即可
+
