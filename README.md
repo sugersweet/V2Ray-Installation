@@ -1,4 +1,11 @@
 # installation
-在阿里云上一键生成ecs.n4.small服务器并自动安装V2Ray
+项目用途：在阿里云上一键生成ecs.n4.small服务器并自动安装V2Ray
 
-# 使用terraform+ansible完成上述目的，所以请本地自动安装对应客户端
+测试过的环境：
+1）本地是MacBook+远端Aliyun ecs服务器
+
+项目依赖的工具：
+1）terraform
+2）ansible
+为完成上述项目用途，请本地自动安装terraform+ansible客户端
+
