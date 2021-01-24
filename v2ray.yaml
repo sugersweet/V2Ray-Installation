@@ -1,0 +1,18 @@
+---
+- hosts: v2ray
+  remote_user: root
+  tasks:
+    - name: create working folder
+      file:
+        path: /app
+        state: directory
+        mode: '0755'
+    - name: copy install script
+      copy:
+        src: install_v2ray.sh
+        dest: /app
+        owner: root
+        group: root
+        mode: 0755
+    - name: Execute the script
+      shell: echo "1" | sh /app/install_v2ray.sh
