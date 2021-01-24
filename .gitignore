@@ -1,6 +1,6 @@
 AccessKey.csv
 aliyun_RAM_user.sh
-aliyun*
+
 .terraform*
 terraform.tfstate*
 terraform.tf
